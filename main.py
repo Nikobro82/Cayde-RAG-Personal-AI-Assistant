@@ -2,19 +2,11 @@ import time
 
 from similarity import get_scores
 from chunker import chunk_data
-
-
 from chunker import encode
-
 import streamlit as st
-
-from nltk.corpus import stopwords
-
 import torch
-
 from groq import Groq
 from dotenv import load_dotenv
-
 import os
 
 load_dotenv()
